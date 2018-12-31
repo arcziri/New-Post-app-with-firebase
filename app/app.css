@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins';
+  background: #2980b9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#nickname {
+  background-color: #2980b8;
+  padding: 10px 20px;
+  height: 40px;
+}
+
+#container {
+  width: 45%;
+  margin: 70px auto;
+  background-color:#fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+}
+
+#input {
+  width: 50%;
+  color: white;
+  font-size: 18px;
+  height: 40%;
+  border: none;
+  background-color: #2980b8;
+  padding: 2%;
+  float: left;
+}
+#input::placeholder { 
+    font-family: 'Poppins';
+    color: white;
+    font-size: 18px;
+}
+
+#textarea {
+  width: 99%;
+  border: none;
+  background-color: #F4F4F4;
+  padding: 2px;
+}
+
+#textarea::placeholder { 
+    font-family: 'Poppins';
+    color: black;
+    font-size: 13px;
+    box-sizing:border-box;
+}
+
+#button {
+  background-color: #1e90ff;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-family: Blackletter;
+  float: right;
+}
+
+li {
+  background-color: #F6F6F6;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  padding: 2px;
+  margin-top:30px;
+}
