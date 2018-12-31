@@ -12,14 +12,13 @@ function getDatePost() {
 }
 
 var config = {
-  apiKey: "AIzaSyDDB9EeadcrDbAaDV5zUu0hNuavW8U4hX0",
-  authDomain: "appdata-99157.firebaseapp.com",
-  databaseURL: "https://appdata-99157.firebaseio.com",
-  projectId: "appdata-99157",
-  storageBucket: "appdata-99157.appspot.com",
-  messagingSenderId: "885183762139"
+  apiKey: "AIzaSyAAV2KE_0BzmxlHpMr86_VjslG_vhJVRXc",
+  authDomain: "new-posts-83897.firebaseapp.com",
+  databaseURL: "https://new-posts-83897.firebaseio.com",
+  projectId: "new-posts-83897",
+  storageBucket: "new-posts-83897.appspot.com",
+  messagingSenderId: "42678570828"
 };
-
 firebase.initializeApp(config);
 
 const database = firebase.database();
