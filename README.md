@@ -1,4 +1,4 @@
-##New-Post-app-with-firebase
+## New-Post-app-with-firebase
 
 After download or clone this repository:
 You will have to open file app.html in web browser
